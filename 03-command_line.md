@@ -20,7 +20,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+pwd - show current working directory path  
+mkdir test - create a directory named test  
+rmdir test - delete a directory named test  
+touch text.txt - creates a text.txt file  
+rm text.txt - removes file text.txt  
+mv text.txt test.txt - renames file from text.txt to test.txt  
+ls -ld .?* - lists hidden files  
+cp ~/Desktop/text.txt ~/Documents - moves file text.txt from Desktop directory to Documents directory  
+cd .. - goes back up one level on the directory path  
+cd ~ - goes back to base level of directory  
 
 ---
 
@@ -35,7 +44,15 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls : lists files  
+ls -a : lists all files  
+ls -l : lists files in long format listing  
+ls -lh : no difference from 'ls - l'  
+ls -lah : lists all files in long format listing  
+ls -t : lists non hidden files with new files first  
+ls -Glp : lists non hidden files with long format listing and directory names
+
+
 
 ---
 
@@ -43,7 +60,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls -m  
+ls -c  
+ls -ac  
+ls -L
+ls -q  
 
 ---
 
@@ -51,7 +72,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`xargs` is a command that allow terminal to read data from standard input and execute. For instance if we typed in xargs find -name, hit enter, type in ".txt", and then execute it this should cause xargs to find all files that in .txt in the current directory and subdirectories.
 
  
 
